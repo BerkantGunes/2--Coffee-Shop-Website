@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- Coding By GunesBerkant -->
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Coffee Island | GunesBerkant</title>
+        <!-- Linking Font Awesome for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <!-- Link Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- Hot Coffee Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="Assets/images/hot-beverages.png">
+    </head>
+    <body>
+        <!-- Header / Navbar -->
+        <header>
+            <nav class="navbar section-content">
+                <a href="#" class="nav-logo">
+                    <h2 class="logo-text">☕ Coffee Island</h2>
+                </a>
+                <ul class="nav-menu">
+                    <button id="menu-close-button" class="fas fa-times"></button>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" target="_blank" class="nav-link">Menü</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Referanslar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Görseller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">İletişim</a>
+                    </li>
+                </ul>
+
+                <button id="menu-open-button" class="fas fa-bars"></button>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+             <section class="hero-section">
+                <div class="section-content">
+                    <div class="hero-details">
+                        <h2 class="title">En İyi Kahve Burada</h2>
+                        <h3 class="subtitle">Spesiyal Kahvelerimizle Gününüze Güzellik Katın!</h3>
+                        <p class="description">Coffee Island'a Hoş Geldiniz. Her çekirdek ayrı bir hikaye anlatır ve her fincanı neşe saçar.</p>
+
+                        <div class="buttons">
+                            <a href="#" class="button order-now">Hemen Sipariş Ver</a>
+                            <a href="#" class="button contact-us">Bize Ulaşın</a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image-wrapper">
+                        <img src="Assets/images/coffee-hero-section.png" alt="Hero" class="hero-image">
+                    </div>
+                </div>
+             </section>
+
+            <!-- About Section -->
+             <section class="about-section" id="about">
+                <div class="section-content">
+                    <div class="about-image-wrapper">
+                        <img src="Assets/images/about-image.jpg" alt="About" class="about-image">
+                    </div>
+                    <div class="about-details">
+                        <h2 class="section-title">Hakkımızda</h2>
+                        <p class="text">Coffee Island (Kahve Adası) 2025 yılında İstanbul Büyükada'da kurulmuş olup ismi de Ada da olmasından gelmektedir. Aynı zamanda Dünya'nın en ünlü Kahve yetiştiriciliği Endonezya, Sumatra gibi Adalarda yapıldığı için Ada vurgusunu ön plana çıkarttık. Kısa sürede kahve severlerin, sosyal alanlarda çalışmaktan hoşlananların ve yeni lezzetleri keşfetme tutkusu olanların uğrak noktası olmayı başardık. Sizleri, kahve kültürümüzün ve eşsiz lezzet deneyimimizin bir parçası olmaya davet ediyoruz.</p>
+                        <div class="social-link-list">
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+            <!-- Menu Section -->
+             <section class="menu-section" id="menu">
+                <h2 class="section-title">Menü</h2>
+                <div class="section-content">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="Assets/images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+                            <h3 class="name">Sıcak İçecekler</h3>
+                            <p class="text">Buharı üstünde, geniş yelpazede sıcak kahveler ile gününüzü tazeleyin.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Assets/images/cold-beverages.png" alt="Cold Beverages" class="menu-image">
+                            <h3 class="name">Soğuk İçecekler</h3>
+                            <p class="text">Kremalı ve köpüklü soğuk kahve sizi serinletmeye yardımcı olur.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Assets/images/refreshment.png" alt="Refreshment" class="menu-image">
+                            <h3 class="name">Meyve Suları</h3>
+                            <p class="text">Ferahlamanızı sağlayacak buz gibi meyve suları.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Assets/images/special-combo.png" alt="Special Combos" class="menu-image">
+                            <h3 class="name">Özel Kombinasyonlar</h3>
+                            <p class="text">Deneyince çok seveceğiniz özel yiyecek ve içecek kombinasyonları.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Assets/images/desserts.png" alt="Desserts" class="menu-image">
+                            <h3 class="name">Tatlılar</h3>
+                            <p class="text">Damak tadınıza göre bir lezzet şöleni yaşatacak enfes tatlılar.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="Assets/images/burger-frenchfries.png" alt="Burger & French Fries" class="menu-image">
+                            <h3 class="name">Burgerler & Patates Kızartmaları</h3>
+                            <p class="text">Açlığınızı giderici hızlı atıştırmalıklar ve leziz burgerler.</p>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+            <!-- Testimonial Section -->
+              <section class="testimonials-section" id="testimonials">
+                <h2 class="section-title">Referanslar</h2>
+                <div class="section-content">
+                    <div class="slider-container swiper">
+                        <div class="slider-wrapper">
+                            <ul class="testimonials-list swiper-wrapper">
+                                <li class="testimonial swiper-slide">
+                                    <img src="Assets/images/user-1.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Selenay</h3>
+                                    <i class="feedback">Bol köpüklü soğuk kahvelerine bayıldım. Kaliteli ortamı ve konforlu çalışma ortamı tam bana göre. Artık her hafta buradayım.</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="Assets/images/user-2.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Berkant</h3>
+                                    <i class="feedback">Güne sert bir Americano ile başlamadan kendime gelemiyorum. Bir yandan yazılım projlerimi tamamlarken bir yandan kahvemi yudumlamanın hazzı muhteşem.</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="Assets/images/user-3.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Furkan</h3>
+                                    <i class="feedback">Harika aromasıyla güzel bir mocha deneyimi sunuyor. Ortam olarak sosyalleşmenin en güzel hali. Teşekkürler Coffee Island.</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="Assets/images/user-4.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Reyhan</h3>
+                                    <i class="feedback">Muhteşem bir kalite. Favorim sade ve bol köpüklü Türk kahvesi. Taptaze çekirdekleriyle enfes kahve aroması. Servisi de gayet hızlı.</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="Assets/images/user-5.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Faruk</h3>
+                                    <i class="feedback">Bol meyve aromasıyla meyve suları serinlemek için birebir. Bu yaz favorim kavunlu Smoothie. Harika bir iş çıkarmış Coffee Island ekibi.</i>
+                                </li>
+                            </ul>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-slide-button swiper-button-prev"></div>
+                            <div class="swiper-slide-button swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+            <!-- Gallery Section -->
+              <section class="gallery-section" id="gallery">
+                <h2 class="section-title">Görseller</h2>
+                <div class="section-content">
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <img src="Assets/images/gallery-1.jpg" alt="Gallery" class="galley-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="Assets/images/gallery-2.jpg" alt="Gallery" class="galley-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="Assets/images/gallery-3.jpg" alt="Gallery" class="galley-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="Assets/images/gallery-4.jpg" alt="Gallery" class="galley-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="Assets/images/gallery-5.jpg" alt="Gallery" class="galley-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="Assets/images/gallery-6.jpg" alt="Gallery" class="galley-image">
+                        </li>
+                    </ul>
+                </div>
+              </section>
+
+            <!-- Contact Section -->
+              <section class="contact-section" id="contact">
+                <h2 class="section-title">İletişim</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>123 Yilmazturk Caddesi, Büyükada, İstanbul 34970</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@coffeeislandwebsite.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+90 500 300 00 01</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Everyday: 8:00 AM - 11:00 PM</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>www.github.com/BerkantGunes</p>
+                        </li>
+                    </ul>
+
+                    <form action="#" class="contact-form">
+                        <input type="text" placeholder="Adınız" class="form-input" required>
+                        <input type="email" placeholder="Email adresiniz" class="form-input" required>
+                        <textarea placeholder="Mesajınız" class="form-input" required></textarea>
+                        <button class="submit-button">Gönder</button>
+                    </form>
+                </div>
+              </section>
+
+            <!-- Footer Section -->
+             <footer class="footer-section">
+                <div class="section-content">
+                    <p class="copyright-text">2025 Coffee Island</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+
+                    <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy policy</a>
+                        <span class="seperator">.</span>
+                        <a href="#" class="policy-link">Refund policy</a>
+                    </p>
+                </div>
+             </footer>
+        </main>
+
+        <!-- Linking Swiper Script -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Linking Custom Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
